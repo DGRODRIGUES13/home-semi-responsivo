@@ -1,0 +1,312 @@
+.navbar
+{
+    background-color: #C7E7FF;
+}
+
+.navbar-expand-lg
+{
+    background-color: #C7E7FF;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.div_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+footer{
+    background-color: grey;
+}
+
+.socialmedia{
+    text-align: right;
+}
+
+.socialphone{
+    text-align: left;
+}
+
+.sections{
+    display: grid;
+    grid-template: 90vh/ 1fr 1fr 1fr;
+    grid-template-areas:
+        "s1 s2 s3";
+    width: 100%;
+    height: 100%;
+}
+
+#s1{
+    grid-area: s1;
+}
+
+#s2{
+    grid-area: s2;
+}
+
+#s3{
+    grid-area: s3;
+}
+
+/* @media (max-width: 768px)
+{
+    .sections{
+        display: grid;
+        grid-template: 60vh 60vh 60vh/ 1fr 1fr 1fr;
+        grid-template-areas:
+            "s1 s1 s1"
+            "s2 s2 s2"
+            "s3 s3 s3";
+        width: 100%;
+        height: 100%;
+    }
+} */
+@media only screen and (max-width: 950px){ /*enquanto a largura da tela for + q 950 px adc esses elementos*/
+   
+
+    /* .socialmedia{
+     height: 8%;
+     width: 100%;
+    }
+    .socialphone{
+      height: 20%;
+    } 
+    .sections{
+      left: 10%;
+    } */
+    #s1{
+     top: 20%; 
+     left: 2%;
+     width: 80%;
+   }
+   #s2{
+      top: 39%; 
+      left: 25%;
+      width: 90%;
+    }
+    #s3{
+      top: 60%; 
+      left: 30%;
+      width: 80%;
+    }
+    
+  @media screen and ( max-width: 650px)
+  {
+     #navbar-brand{
+       left: 60%;
+     }
+       #At{
+      top: 20%; 
+      left: 25%;
+      width: 43%;
+    }
+  
+    #Fa{
+       top: 39%; 
+       left: 25%;
+       width: 43%;
+     }
+     #Ua{
+       top: 58%; 
+       left: 25%;
+       width: 43%;
+     }
+     #Re{
+       top: 77%; 
+       left: 25%;
+       width: 43%;
+    }
+    #Ho{
+       top: 96%; 
+       left: 25%;
+       width:43%;
+    }  
+    #Facebook{
+       top: 0; 
+       left: 65%;
+    }
+    #Instagram{
+       top: 34%; 
+       left: 65%;
+    }
+    #Twitter{
+       top: 64%; 
+       left: 69%;
+   }
+   #Telefone{
+   top: 20%; 
+    left: 5%;
+   }
+    #container{
+     width: 90%;
+   } 
+  @media screen and ( max-width: 600px)
+  {
+    #navbar-brand{
+      left: 60%;
+    }
+      #At{
+     top: 20%; 
+     left: 25%;
+     width: 48%;
+   }
+  
+   #Fa{
+      top: 39%; 
+      left: 25%;
+      width: 48%;
+    }
+    #Ua{
+      top: 58%; 
+      left: 25%;
+      width: 48%;
+    }
+    #Re{
+      top: 77%; 
+      left: 25%;
+      width: 48%;
+   }
+   #Ho{
+      top: 96%; 
+      left: 25%;
+      width:48%;
+   }  
+   #Facebook{
+      top: 0; 
+      left: 65%;
+      font-size: 100%;
+   }
+   #Instagram{
+      top: 34%; 
+      left: 65%;
+      font-size: 100%;
+   }
+   #Twitter{
+      top: 64%; 
+      left: 69%;
+      font-size: 100%;
+  }
+  #Telefone{
+  top: 20%; 
+   left: 5%;
+  }
+   #container{
+    width: 90%;
+  } 
+   @media screen and (max-width:500px)
+   {
+    #navbar-brand{
+      left: 60%;
+    }
+      #At{
+     top: 20%; 
+     left: 25%;
+     width: 55%;
+   }
+  
+   #Fa{
+      top: 39%; 
+      left: 25%;
+      width: 55%;
+    }
+    #Ua{
+      top: 58%; 
+      left: 25%;
+      width: 55%;
+    }
+    #Re{
+      top: 77%; 
+      left: 25%;
+      width: 55%;
+   }
+   #Ho{
+      top: 96%; 
+      left: 25%;
+      width:55%;
+   }  
+   #Facebook{
+      top: 0; 
+      left: 60%;
+      font-size: 90%;
+   }
+   #Instagram{
+      top: 34%; 
+      left: 60%;
+      font-size: 90%;
+   }
+   #Twitter{
+      top: 64%; 
+      left: 64%;
+      font-size: 90%;
+  }
+  #Telefone{
+  top: 20%; 
+   left: 2%;
+  }
+   #container{
+    width: 90%;
+  } 
+   }
+    @media screen and (max-width:400px)
+    {
+      #navbar-brand{
+        left: 60%;
+      }
+        #At{
+       top: 20%; 
+       left: 20%;
+       width: 69%;
+     }
+    
+     #Fa{
+        top: 39%; 
+        left: 20%;
+        width: 69%;
+      }
+      #Ua{
+        top: 58%; 
+        left: 20%;
+        width: 69%;
+      }
+      #Re{
+        top: 77%; 
+        left: 20%;
+        width: 69%;
+     }
+     #Ho{
+        top: 96%; 
+        left: 20%;
+        width:69%;
+     }  
+     #Facebook , .Facebook{
+        top: 0; 
+        left: 80%;
+        font-size: 0%;
+     }
+     #Instagram, .Instagram{
+      top: 35%; 
+      left: 80%;
+      font-size: 0%;
+     }
+     #Twitter, .Twitter{
+      top: 70%; 
+      left: 80%;
+      font-size: 0%;
+    }
+    #Telefone{
+    top: 20%; 
+     left: 2%;
+    }
+     #container{
+      width: 90%;
+    } 
+  
+     }
+  }
+}
+}
